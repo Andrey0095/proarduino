@@ -1,0 +1,232 @@
+body{
+	background-attachment: fixed; /*  Фиксирует фон страницы     */
+}
+@font-face {
+	font-family: 'MagistralBlackC';
+	src: url('../fonts/Magistralblackc.woff2') format('woff2'),
+		 url('../fonts/Magistralblackc.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Academia';
+	src: url('../fonts/ACADEITA.woff2') format('woff2'),
+		 url('../fonts/ACADEITA.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+	font-family: 'a_CityNova';
+	src: url('../fonts/a_citynova.woff2') format('woff2'),
+		 url('../fonts/a_citynova.woff') format('woff');
+	font-style: normal;
+}
+img{
+	min-width: 200px;
+}
+p{
+	font-family: 'a_CityNova';
+	font-size: 18px;
+}
+h2 {
+	font-family: 'a_CityNova';
+}
+h1 {
+	font-family: 'a_CityNova';
+	font-size: 30px;
+	text-shadow: 4px 4px 1px rgba(150, 150, 150, 1);
+}
+h3 {
+	font-family: 'MagistralBlackC';
+	font-size: 40px;
+	text-shadow: 4px 4px 1px rgba(150, 150, 150, 1);
+}
+li {
+	font-family: 'a_CityNova';
+	font-size: 18px;
+}
+i {                                /*   Примечение (на сайте)   */
+	font-family: 'Academia';
+	font-size: 18px;
+	color: white;
+}
+.prim{                             /*        Примечание на сайте      */
+	background-color: #22225f;
+	width: 100.3%;
+	border: 10px solid #465474;
+	border-radius: 20px;
+	box-shadow: 15px 15px 15px 0px rgba(0,0,0,0.75);
+	padding-left: 10px;
+}
+a{                         /*      Для ссылок в содержании      */
+	color: black;   
+	text-decoration: none;
+}
+.oglavlenie{                                              /*   Содержание   */
+	background-color: #c2cbdf;
+	width: 30%;
+	border: 15px ridge #465474;
+	border-radius: 20px;
+	box-shadow: 15px 15px 15px 0px rgba(0,0,0,0.75);     /* Тень  */
+	min-width: 220px;
+}
+.zagl{                                  /* стили в содержании для (Что такое Arduino, Виды плат arduino) */
+	font-family: 'a_CityNova';
+	font-size: 18px;
+	padding-left: 20px;
+	padding-top: 5px;
+}
+.pod_zagl{
+	font-family: 'a_CityNova';
+	font-size: 18px;
+	padding-left: 40px;
+	padding-top: 5px;
+}
+.ogl{                                 /*         Для слова (Содержание)         */
+	font-family: 'a_CityNova';
+	font-size: 20px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.ssilka{                    /*       Для всех ссылок в тексте        */
+	color: blue;
+}
+.ssilka:hover{
+	color: #06005a;
+}
+.bottom{                                     /*     Нижняя панель там где ссылки соцсети, Andrey 2020©     */
+	width: 100%;
+	height: 200px;
+	background-color: #22225f;
+	border: 15px solid #465474;
+	border-radius: 20px;
+	box-shadow: 15px 15px 15px 0px rgba(0,0,0,0.75);
+	margin-top: 50px;
+}
+.pusto{                              /*        самый нижний отступ от bottom        */
+	height: 100px;
+}
+a:hover{                          /*      Когда наводиш курсор на слово в оглавлении оно меняет цвет      */
+	color: Teal;
+}
+.Soc{                           /*      Место для кнопки соцсети      */
+  display: inline-block;
+  width: 39px;
+  height: 39px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.Facebook{                             /*      Facebook      */
+	overflow: hidden;
+}
+.aaa{                                      /*    изображение .Facebook{    */
+	position: relative;
+	left: -2.5px;
+	top: -3px;
+	min-width: 39px;
+	min-height: 39px;
+}
+.aaa:hover{
+	position: relative;
+	left: -2.5px;
+	top: -89px;	
+}
+.predSoc{                    /*        Отступ для кнопок соцсетей        */
+	height: 20px;
+}
+.YouTube{                                 /*       YouTube       */
+	overflow: hidden;
+}
+.bbb{                                          /*        изображение YouTube        */
+	position: relative;
+	left: -88.5px;
+	top: -88px;
+	min-width: 39px;
+	min-height: 39px;
+}
+.bbb:hover{
+	position: relative;
+	left: -2.5px;
+	top: -45px;
+}
+.Instagram{                                   /*            Instagram             */
+	overflow: hidden;
+}
+.ccc{                                           /*            изображение Instagram            */
+	position: relative;
+	left: -45.35px;
+	top: -3;
+	min-width: 39px;
+	min-height: 39px;
+}
+.ccc:hover{
+	position: relative;
+	left: -45.35px;
+	top: -46;
+}
+.Pin{                                          /*                 Pinterest                 */
+	overflow: hidden;
+}
+.ddd{                                             /*          изображение Pinterest          */
+	position: relative;
+	left: -45.5px;
+	top: -88px;
+	min-width: 39px;
+	min-height: 39px;
+}
+.ddd:hover{
+	position: relative;
+	left: -88.5px;
+	top: -45px;
+}
+.Andrey_2019{                              /*       Andrey 2020©       */
+	color: white;
+	padding-top: 5px;
+	font-size: 20px;
+}
+.soc_fyip{
+	padding-top: 20px;
+}
+.Sod_bot_1{
+	color: #cdd2ff;
+	padding-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.Sod_bot_2{
+	color: #cdd2ff;
+	padding-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.Sod_bot_3{
+	color: #cdd2ff;
+	padding-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.Soc_bottom{
+	padding-top: 23px;
+	font-size: 18px;
+}
+.ssilka_soc:hover{
+	color: #626fe9;
+}
+li:hover{
+	background-color: #4e9bcf;
+	list-style-type: disc;
+}
+
+.st{                          /*       Стрелка вверх       */
+	position: fixed;
+	right: 0%;
+	top: 85%;
+	transform: rotate(-90deg);
+	border: 5px ridge #465474;
+	border-radius: 20px;
+	min-width: 10px;
+}
+.text{
+	margin-left: 39%;
+	height: 0px;
+	margin-top: -20px;
+	padding-left: 20px;
+}
