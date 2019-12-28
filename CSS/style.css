@@ -91,7 +91,7 @@ a{                         /*      Для ссылок в содержании  
 	color: blue;
 }
 .ssilka:hover{
-	color: #06005a;
+	color: #628cc1;
 }
 .bottom{                                     /*     Нижняя панель там где ссылки соцсети, Andrey 2020©     */
 	width: 95%;
@@ -219,7 +219,7 @@ a:hover{                          /*      Когда наводиш курсор
 	transform: rotate(-90deg);
 	border: 5px ridge #465474;
 	border-radius: 20px;
-	min-width: 10px;
+	min-width: 50px;
 }
 .text{
 	margin-left: 39%;
@@ -259,10 +259,16 @@ li:hover{
 		text-align: left;
 	}
 	li:hover{
-	background-color: #7ab0b8;
-	width: 153%;
+		background-color: #7ab0b8;
+		width: 153%;
 	}
 	.ne_li:hover{
 		width: 100%
+	}
+	.oglavlenie{                                              /*   Содержание   */
+		width: 300px;
+	}
+	.pusto{                              /*        самый нижний отступ от bottom        */
+		height: 30px;
 	}
 }
