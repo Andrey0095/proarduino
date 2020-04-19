@@ -23,6 +23,9 @@ body{
 img{
 	min-width: 300px;
 }
+.reklama{
+	min-width: 10px;
+}
 p{
 	font-family: 'a_CityNova';
 	font-size: 18px
@@ -91,7 +94,7 @@ a{                         /*      Для ссылок в содержании  
 	color: blue;
 }
 .ssilka:hover{
-	color: #628cc1;
+	color: #0b0545
 }
 .bottom{                                     /*     Нижняя панель там где ссылки соцсети, Andrey 2020©     */
 	width: 95%;
@@ -211,9 +214,6 @@ a:hover{                          /*      Когда наводиш курсор
 	margin-top: 10px;
 
 }
-.Sod_bot_3:hover{
-
-}
 .ssilka_soc{
 	float: top;
 
@@ -316,6 +316,19 @@ li:hover{
   transform: translateY(3px);
   filter: drop-shadow(0 0 0px  black);
  }
+ /*-----------Реклама-------------*/
+.vertikal_reklama{
+	position: absolute;
+	margin-left: 1070px;
+	top: 260px;
+}
+.reklama_gorizonalna1{
+	margin-left: 25%;
+}
+ /*-----------Конец рекламы-------------*/
+
+ 
+ /*------------------------------------------------------------*/
 @media (max-width: 950px){
 	body{
 		margin-left: 0px;
